@@ -1,6 +1,6 @@
 # Dobot Workshop
 
-This repository include 3 tutorials for the Dobot Magician robot arm. The tutorials are designed to help you understand how to control the robot arm using Python.
+This repository include 2 tutorials for the Dobot Magician robot arm. The tutorials are designed to help you understand how to control the robot arm using Python.
 
 ## Tutorials
 1. [Dobot Magician Robot Arm Control Tutorial](dobot.ipynb)
