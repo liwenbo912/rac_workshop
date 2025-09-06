@@ -4,7 +4,6 @@ opencv-python
 opencv-python-headless
 pillow
 pydobotplus
-pyrealsense2-macosx
 pupil-apriltags
 PyYAML
 roboflow

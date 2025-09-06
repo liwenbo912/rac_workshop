@@ -5,7 +5,7 @@ This repository contains three tutorials for the Dobot Magician robotics arm. Th
 ## Tutorials
 
 1. [Dobot Magician Robot Arm Control Tutorial](dobot.ipynb)
-2. [YOLO Training Tutorial](yolov8-obb.ipynb) (from HKUGenAI)
+2. [YOLO Training Tutorial](yolo.ipynb)
 3. [Dobot Magician Robot Arm Calibration Tutorial](calibration.ipynb)
 
 ## Environment Setup
@@ -14,8 +14,8 @@ To run the tutorials, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/HKUArmStrong/dobot-workshop.git
-    cd dobot-workshop
+    git clone https://github.com/HKUArmStrong/rac_workshop.git
+    cd rac_workshop
     ```
 
 2. **Create a virtual environment:**
@@ -35,9 +35,10 @@ To run the tutorials, follow these steps:
     pip install -r requirements.txt # See the below requirement for difference hardware and OS. 
     ```
 
+  
 ### Requirements Files
 
-Choose the appropriate requirements file for your platform:
+Select the requirements file that matches your operating system and hardware:
 
 - **Windows (CPU):** `requirements.txt`
 - **Windows (CUDA 12.8):** `requirements-cuda.txt`
@@ -45,3 +46,5 @@ Choose the appropriate requirements file for your platform:
 - **Linux (CUDA 12.8):** `requirements.txt`
 - **macOS:** `requirements-mac.txt`
 
+### Known Issue
+On macOS, the RealSense camera is not supported. As a result, all camera-related functions are disabled, and `calibration.ipynb` will have limited functionality.
