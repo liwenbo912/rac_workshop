@@ -1,8 +1,0 @@
-pydobotplus
-pyrealsense2
-numpy
-pupil-apriltags
-matplotlib
-opencv-python
-scipy
-PyYAML

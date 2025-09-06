@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+matplotlib
+numpy
+opencv-python
+opencv-python-headless
+pillow
+pydobotplus
+pyrealsense2
+pupil-apriltags
+PyYAML
+roboflow
+scipy
+torch
+torchvision
+torchaudio
+ultralytics
