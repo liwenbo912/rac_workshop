@@ -19,18 +19,24 @@ To run the tutorials, follow these steps:
     ```
 
 2. **Create a virtual environment:**
+    ### For Mac/Linux ###
+   ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+    ### For Windows ###
     ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    venv\Scripts\activate.bat
     ```
 
-3. **Alternatively, create a conda environment:**
+4. **Alternatively, create a conda environment:**
     ```bash
     conda create -n rac_workshop python=3.10
     conda activate rac_workshop
     ```
 
-4. **Install required packages:**
+5. **Install required packages:**
     ```bash
     pip install -r requirements.txt # See the below requirement for difference hardware and OS. 
     ```
