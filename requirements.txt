@@ -1,3 +1,4 @@
+python==3.10
 matplotlib
 numpy
 opencv-python
@@ -18,3 +19,4 @@ ipykernel
 ipython
 jupyter_client
 jupyter_core
+tqdm
