@@ -1,7 +1,6 @@
 --extra-index-url https://download.pytorch.org/whl/cu128
-python==3.10
 matplotlib
-numpy==1.24.0
+numpy
 opencv-python
 opencv-python-headless
 pillow
@@ -15,7 +14,6 @@ torch
 torchvision
 torchaudio
 ultralytics
-
 
 ipykernel
 ipython
