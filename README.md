@@ -52,8 +52,5 @@ Select the requirements file that matches your operating system and hardware:
 - **Linux (CUDA 12.8):** `requirements.txt`
 - **macOS:** `requirements-mac.txt`
 
-For YOLO workshop, we use a different environment setting, a new conda (virtual) environment is recommended.
-- **YOLO (GPU):** `requirements_yolo_txt`
-
 ### Known Issue
 On macOS, the RealSense camera is not supported. As a result, all camera-related functions are disabled, and `calibration.ipynb` will have limited functionality.
