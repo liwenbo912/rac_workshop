@@ -14,3 +14,8 @@ torch
 torchvision
 torchaudio
 ultralytics
+
+ipykernel
+ipython
+jupyter_client
+jupyter_core
