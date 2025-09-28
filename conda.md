@@ -65,3 +65,21 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUsers
 . 'C:\Users\Innowing\Documents\WindowsPowerShell\profile.ps1'
 # Notice the dot in the command
 ```
+
+- Change Disk in Windows terminal
+  ```bash
+  cd /d D: # for example to Disk D:
+  ```
+
+- Error Debug
+  ```bash
+    error: subprocess-exited-with-error
+
+    × Getting requirements to build wheel did not run successfully.
+  ```
+  It means your enviroment lacks some essential tools/compilers for building the packages we want to install. Usually conda install python would solve these kind of problems
+  ```bash
+  conda install python==x.xx.x # x.xx.x means the python version you want to install
+  # in this workshop we use python 3.10
+  conda install python==3.10
+  ```
