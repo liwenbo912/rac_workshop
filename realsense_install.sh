@@ -8,23 +8,23 @@ echo "Installing dependencies..."
 
 # Make Ubuntu up-to-date including the latest stable kernel
 echo "Updating Ubuntu..."
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 
 # Install the core packages required to build librealsense binaries and the affected kernel modules
 echo "Installing core packages..."
-sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev
+sudo apt-get install -y libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev
 
 # Cmake Note: certain librealsense CMAKE flags (e.g. CUDA) require version 3.8+ which is currently not made available via apt manager for Ubuntu LTS.
 
 # Install build tools
 echo "Installing build tools..."
-sudo apt-get install git wget cmake build-essential
+sudo apt-get install -y git wget cmake build-essential
 
 # Prepare Linux Backend and the Dev. Environment
 # Unplug any connected RealSense camera and run:
 echo "Please unplug any connected RealSense camera before proceeding."
 echo "Installing backend packages..."
-sudo apt-get install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev at
+sudo apt-get install -y libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev at
 
 echo "Dependencies installed. Proceeding with RealSense SDK installation..."
 
